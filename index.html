@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fitness Platform</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Fitness Platform</h1>
+
+<h2>Predefined Programs</h2>
+<div id="programButtons">
+  <button onclick="showProgram('6 Pack in 30 Days')">6 Pack in 30 Days</button>
+  <button onclick="showProgram('Arms in 30 Days')">Arms in 30 Days</button>
+</div>
+
+<div id="workoutList"></div>
+
+<h2>AI Custom Workout</h2>
+<div id="customWorkout"></div>
+<button onclick="generateCustomWorkout('abs',10,'beginner')">Generate 10-min Abs Workout</button>
+
+<script src="js/main.js"></script>
+<script src="js/ai.js"></script>
+</body>
+</html>
