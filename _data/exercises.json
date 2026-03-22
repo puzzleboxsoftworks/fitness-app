@@ -1,17 +1,38 @@
 [
-  {"id":1,"name":"Push Ups","muscle_group":"arms","duration":30,"equipment":"none","difficulty":"beginner","description":"Keep back straight, lower until chest nearly touches floor."},
+  {"id":1,"name":"Push Ups","muscle_group":"arms","duration":30,"equipment":"none","difficulty":"beginner","description":"Keep your back straight, lower until chest nearly touches floor."},
   {"id":2,"name":"Tricep Dips","muscle_group":"arms","duration":30,"equipment":"chair","difficulty":"beginner","description":"Hands behind on chair, lower body, then push up."},
   {"id":3,"name":"Bicep Curls","muscle_group":"arms","duration":30,"equipment":"dumbbell","difficulty":"beginner","description":"Curl dumbbells slowly, elbows at sides."},
-  {"id":4,"name":"Crunches","muscle_group":"abs","duration":30,"equipment":"none","difficulty":"beginner","description":"Lie on back, lift shoulders toward knees."},
-  {"id":5,"name":"Plank","muscle_group":"abs","duration":30,"equipment":"none","difficulty":"beginner","description":"Hold your body straight like a board."},
-  {"id":6,"name":"Leg Raises","muscle_group":"abs","duration":30,"equipment":"none","difficulty":"beginner","description":"Lie on back, lift legs straight up and down."},
-  {"id":7,"name":"Squats","muscle_group":"legs","duration":30,"equipment":"none","difficulty":"beginner","description":"Feet shoulder width, lower hips to parallel."},
-  {"id":8,"name":"Lunges","muscle_group":"legs","duration":30,"equipment":"none","difficulty":"beginner","description":"Step forward, bend both knees, push back."},
-  {"id":9,"name":"Glute Bridges","muscle_group":"legs","duration":30,"equipment":"none","difficulty":"beginner","description":"Lie on back, lift hips upward."},
-  {"id":10,"name":"Mountain Climbers","muscle_group":"fullbody","duration":30,"equipment":"none","difficulty":"beginner","description":"In plank, drive knees alternately to chest."},
-  {"id":11,"name":"Burpees","muscle_group":"fullbody","duration":30,"equipment":"none","difficulty":"intermediate","description":"Squat, jump back to plank, push up, jump up."},
-  {"id":12,"name":"Superman","muscle_group":"back","duration":30,"equipment":"none","difficulty":"beginner","description":"Lie face down, lift arms and legs simultaneously."},
-  {"id":13,"name":"Bicycle Crunches","muscle_group":"abs","duration":30,"equipment":"none","difficulty":"intermediate","description":"Alternate elbow to opposite knee while lying down."},
-  {"id":14,"name":"Side Plank","muscle_group":"abs","duration":30,"equipment":"none","difficulty":"intermediate","description":"Hold your body on one side, elbow under shoulder."}
-  // add more exercises following the same format (up to ~100)
+  {"id":4,"name":"Arm Circles","muscle_group":"arms","duration":30,"equipment":"none","difficulty":"beginner","description":"Rotate arms in circles to warm up shoulders."},
+  {"id":5,"name":"Diamond Push Ups","muscle_group":"arms","duration":30,"equipment":"none","difficulty":"intermediate","description":"Hands form a diamond, lower chest to hands."},
+
+  {"id":6,"name":"Crunches","muscle_group":"abs","duration":30,"equipment":"none","difficulty":"beginner","description":"Lie on back, lift shoulders toward knees."},
+  {"id":7,"name":"Plank","muscle_group":"abs","duration":30,"equipment":"none","difficulty":"beginner","description":"Hold your body straight like a board."},
+  {"id":8,"name":"Leg Raises","muscle_group":"abs","duration":30,"equipment":"none","difficulty":"beginner","description":"Lie on back, lift legs straight up and down."},
+  {"id":9,"name":"Bicycle Crunches","muscle_group":"abs","duration":30,"equipment":"none","difficulty":"intermediate","description":"Alternate elbow to opposite knee while lying down."},
+  {"id":10,"name":"Side Plank","muscle_group":"abs","duration":30,"equipment":"none","difficulty":"intermediate","description":"Hold your body on one side, elbow under shoulder."},
+
+  {"id":11,"name":"Squats","muscle_group":"legs","duration":30,"equipment":"none","difficulty":"beginner","description":"Feet shoulder width, lower hips to parallel."},
+  {"id":12,"name":"Lunges","muscle_group":"legs","duration":30,"equipment":"none","difficulty":"beginner","description":"Step forward, bend both knees, push back."},
+  {"id":13,"name":"Glute Bridges","muscle_group":"legs","duration":30,"equipment":"none","difficulty":"beginner","description":"Lie on back, lift hips upward."},
+  {"id":14,"name":"Wall Sit","muscle_group":"legs","duration":30,"equipment":"none","difficulty":"beginner","description":"Back against wall, knees at 90 degrees."},
+  {"id":15,"name":"Calf Raises","muscle_group":"legs","duration":30,"equipment":"none","difficulty":"beginner","description":"Stand on toes, lift and lower slowly."},
+
+  {"id":16,"name":"Chest Push Ups","muscle_group":"chest","duration":30,"equipment":"none","difficulty":"beginner","description":"Hands slightly wider than shoulders, lower chest."},
+  {"id":17,"name":"Wide Push Ups","muscle_group":"chest","duration":30,"equipment":"none","difficulty":"intermediate","description":"Hands wider than shoulder-width, lower chest."},
+  {"id":18,"name":"Incline Push Ups","muscle_group":"chest","duration":30,"equipment":"chair","difficulty":"beginner","description":"Hands on elevated surface, lower chest slowly."},
+  {"id":19,"name":"Chest Fly","muscle_group":"chest","duration":30,"equipment":"dumbbells","difficulty":"intermediate","description":"Lie on back, open arms wide, then bring together."},
+  {"id":20,"name":"Clap Push Ups","muscle_group":"chest","duration":30,"equipment":"none","difficulty":"advanced","description":"Push off floor explosively and clap hands."},
+
+  {"id":21,"name":"Superman","muscle_group":"back","duration":30,"equipment":"none","difficulty":"beginner","description":"Lie face down, lift arms and legs simultaneously."},
+  {"id":22,"name":"Reverse Fly","muscle_group":"back","duration":30,"equipment":"dumbbells","difficulty":"intermediate","description":"Bend forward, lift arms sideways."},
+  {"id":23,"name":"Bird Dog","muscle_group":"back","duration":30,"equipment":"none","difficulty":"beginner","description":"Extend opposite arm and leg, hold, switch."},
+  {"id":24,"name":"Cobra Stretch","muscle_group":"back","duration":30,"equipment":"none","difficulty":"beginner","description":"Lie on stomach, lift chest using arms."},
+  {"id":25,"name":"Pull Ups","muscle_group":"back","duration":30,"equipment":"pullup bar","difficulty":"advanced","description":"Pull body up until chin passes bar."},
+
+  {"id":26,"name":"Burpees","muscle_group":"fullbody","duration":30,"equipment":"none","difficulty":"intermediate","description":"Squat, jump back to plank, push up, jump up."},
+  {"id":27,"name":"Mountain Climbers","muscle_group":"fullbody","duration":30,"equipment":"none","difficulty":"beginner","description":"In plank, drive knees alternately to chest."},
+  {"id":28,"name":"Jumping Jacks","muscle_group":"fullbody","duration":30,"equipment":"none","difficulty":"beginner","description":"Jump feet out while raising arms overhead."},
+  {"id":29,"name":"High Knees","muscle_group":"fullbody","duration":30,"equipment":"none","difficulty":"beginner","description":"Run in place, lifting knees high."},
+  {"id":30,"name":"Skater Jumps","muscle_group":"fullbody","duration":30,"equipment":"none","difficulty":"intermediate","description":"Jump side to side landing on one leg."}
+  // Continue until ~100 exercises covering all muscle groups
 ]
