@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Fitness Platform</title>
-<link rel="stylesheet" href="css/style.css">
+  <title>Fitness Platform</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <h1>Fitness Platform</h1>
 
-<h1>Fitness Platform</h1>
+  <h2>Prebuilt Programs</h2>
+  <div id="programButtons"></div>
+  <div id="workoutList"></div>
 
-<h2>Predefined Programs</h2>
-<div id="programButtons">
-  <button onclick="showProgram('6 Pack in 30 Days')">6 Pack in 30 Days</button>
-  <button onclick="showProgram('Arms in 30 Days')">Arms in 30 Days</button>
-</div>
+  <h2>AI Custom Workout</h2>
+  <div id="customWorkout"></div>
+  <button onclick="generateCustomWorkout('abs',10,'beginner')">Generate 10-min Abs Workout</button>
 
-<div id="workoutList"></div>
-
-<h2>AI Custom Workout</h2>
-<div id="customWorkout"></div>
-<button onclick="generateCustomWorkout('abs',10,'beginner')">Generate 10-min Abs Workout</button>
-
-<script src="js/main.js"></script>
-<script src="js/ai.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/ai.js"></script>
+  <script>
+    // Load program buttons
+    fetch('_data/programs.json')
+      .then(res=>res.json())
+      .then(programs=>{
+        const container = document.getElementById('programButtons');
+        programs.forEach(p=>{
+          let btn = document.createElement('button');
+          btn.textContent = p.name;
+          btn.onclick = ()=>showProgram(p.name);
+          container.appendChild(btn);
+        });
+      });
+  </script>
 </body>
 </html>
