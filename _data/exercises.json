@@ -1,0 +1,17 @@
+[
+  {"id":1,"name":"Push Ups","muscle_group":"arms","duration":30,"equipment":"none","difficulty":"beginner","description":"Keep back straight, lower until chest nearly touches floor."},
+  {"id":2,"name":"Tricep Dips","muscle_group":"arms","duration":30,"equipment":"chair","difficulty":"beginner","description":"Hands behind on chair, lower body, then push up."},
+  {"id":3,"name":"Bicep Curls","muscle_group":"arms","duration":30,"equipment":"dumbbell","difficulty":"beginner","description":"Curl dumbbells slowly, elbows at sides."},
+  {"id":4,"name":"Crunches","muscle_group":"abs","duration":30,"equipment":"none","difficulty":"beginner","description":"Lie on back, lift shoulders toward knees."},
+  {"id":5,"name":"Plank","muscle_group":"abs","duration":30,"equipment":"none","difficulty":"beginner","description":"Hold your body straight like a board."},
+  {"id":6,"name":"Leg Raises","muscle_group":"abs","duration":30,"equipment":"none","difficulty":"beginner","description":"Lie on back, lift legs straight up and down."},
+  {"id":7,"name":"Squats","muscle_group":"legs","duration":30,"equipment":"none","difficulty":"beginner","description":"Feet shoulder width, lower hips to parallel."},
+  {"id":8,"name":"Lunges","muscle_group":"legs","duration":30,"equipment":"none","difficulty":"beginner","description":"Step forward, bend both knees, push back."},
+  {"id":9,"name":"Glute Bridges","muscle_group":"legs","duration":30,"equipment":"none","difficulty":"beginner","description":"Lie on back, lift hips upward."},
+  {"id":10,"name":"Mountain Climbers","muscle_group":"fullbody","duration":30,"equipment":"none","difficulty":"beginner","description":"In plank, drive knees alternately to chest."},
+  {"id":11,"name":"Burpees","muscle_group":"fullbody","duration":30,"equipment":"none","difficulty":"intermediate","description":"Squat, jump back to plank, push up, jump up."},
+  {"id":12,"name":"Superman","muscle_group":"back","duration":30,"equipment":"none","difficulty":"beginner","description":"Lie face down, lift arms and legs simultaneously."},
+  {"id":13,"name":"Bicycle Crunches","muscle_group":"abs","duration":30,"equipment":"none","difficulty":"intermediate","description":"Alternate elbow to opposite knee while lying down."},
+  {"id":14,"name":"Side Plank","muscle_group":"abs","duration":30,"equipment":"none","difficulty":"intermediate","description":"Hold your body on one side, elbow under shoulder."}
+  // add more exercises following the same format (up to ~100)
+]
